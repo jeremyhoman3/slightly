@@ -12,5 +12,10 @@ class PagesController extends \BaseController {
         return "about page routing works";
     }
 
+    public function showHome()
+    {
+        return "home page";
+    }
+
 
 }

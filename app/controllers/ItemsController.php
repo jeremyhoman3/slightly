@@ -9,7 +9,7 @@ class ItemsController extends \BaseController {
 	 */
 	public function index()
 	{
-		return "it worked";
+		return View::make('items.index');
 	}
 
 
