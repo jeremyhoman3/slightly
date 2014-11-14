@@ -8,11 +8,11 @@
     @endforeach
 
 
-    {!! Form::open(['route' => 'items.store', 'files' => 'true']) !!}
+    {{ Form::open(['route' => 'item.store', 'files' => 'true']) }}
 
         @include('partials.form')
 
-    {!! Form::close() !!}
+    {{ Form::close() }}
     <p>By clicking submit, you agree to the<a href="#"> Slightly Used Terms and Conditions.</a></p>
 
     <br><br><br><br>

@@ -18,8 +18,8 @@
         <ul class="nav navbar-nav navbar-right">
             <li class="{{ Request::is('/') ? 'active' : null }}">
                 <a href="{{ url('/') }}">Buy</a></li>
-            <li class="{{ Request::is('items/create') ? 'active' : null }}">
-                <a href="{{ url('items/create') }}">Sell</a></li>
+            <li class="{{ Request::is('item/create') ? 'active' : null }}">
+                <a href="{{ url('item/create') }}">Sell</a></li>
             <li class="{{ Request::is('contact') ? 'active' : null }}">
                 <a href="{{ url('contact') }}">Contact</a></li>
             <!-- <li class="{{ Request::is('faq') ? 'active' : null }}">

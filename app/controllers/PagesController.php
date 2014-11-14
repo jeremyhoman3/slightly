@@ -4,17 +4,17 @@ class PagesController extends \BaseController {
 
      public function showContact()
      {
-         return "it worked, oh yes it did.";
+         return View::make('contact');
      }
 
     public function showAbout()
     {
-        return "about page routing works";
+        return "about page";
     }
 
     public function showHome()
     {
-        return "home page";
+        return View::make('home');
     }
 
 

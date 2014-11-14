@@ -20,7 +20,7 @@ class ItemsController extends \BaseController {
 	 */
 	public function create()
 	{
-		return "create page";
+		return View::make('items.create');
 	}
 
 
